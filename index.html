@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
+    <!-- Google font: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- /Google font: Roboto -->
+    <!-- My css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- /My css -->
 </head>
 <body>
-    
+    <!-- Banner -->
+    <header id="banner">
+        <img id="logo" src="img/Logo.png" alt="Logo Boolean">
+        <h1 id="toboolist">Toboolist</h1>
+    </header>
+    <!-- /Banner -->
+    <div id="container">
+        <header id="buttons-container" class="box">
+            <input type="button" value="Add Task" id="add-task" class="button">
+            <input type="button" value="Add Section" id="add-section" class="button">
+        </header>
+        <main id="tasks-container" class="box">
+            <section class="section">
+                <h2>New Task</h2>
+                <ul>
+                    <li class="editorial checkmark">Quarterly Newsletter</li>
+                </ul>
+            </section>
+        </main>
+    </div>
 </body>
 </html>

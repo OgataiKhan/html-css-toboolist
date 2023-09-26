@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    background-color: #f6f8f9;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* 
+**********
+Common
+**********
+*/
+
+.box {
+    background-color: white;    
+}
+
+/* 
+**********
+/Common
+**********
+*/
+
+
+/* 
+**********
+Banner
+**********
+*/
+
+#banner {
+    background-color: white;
+    height: 106px;
+    line-height: 106px;
+}
+
+#logo {
+    height: 70%;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+#toboolist {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    font-size: 3.5em;
+
+}
+
+/* 
+**********
+/Banner
+**********
+*/
+
+/* 
+**********
+Buttons
+**********
+*/
+
+#container {
+    width: 70%;
+    margin: 60px auto 20px;
+    background-color: coral;
+}
+
+#buttons-container {
+    padding: 20px 0 10px 75px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.button {
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-size: 1.1em;
+    margin-right: 5px;
+
+}
+
+#add-task {
+    background-color: #14aaf5;
+    color: white;
+    border: none;
+}
+
+#add-section {
+    background-color: white;
+    color: #cdd3d7;
+    border: none;
+    border: 1px solid #cdd3d7;
+}
+
+/* 
+**********
+/Buttons
+**********
+*/
+
+/* 
+**********
+Tasks
+**********
+*/
+
+#tasks-container {
+    margin-top: 3px;
+    padding: 20px 0 10px 75px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.section h2::before {
+    content: "\25BE";
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.3em;
+}
+
+/* 
+**********
+/Tasks
+**********
+*/
